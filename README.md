@@ -23,12 +23,13 @@ Total Drivers
 Total Fares
 Average Fare per Ride
 Average Fare per Driver
-Your final summary DataFrame should look like this:
 
-To create the summary DataFrame, follow these steps:
+There are a lot less Rural Rides (125). And the top most rides are Urban. This in aligment as per expectation but it is a higher rate on the average Rural Fare per ride, wheere in rural is $34.62, Suburban is $30.97 and Urban is $24.53. 
 
-Get the total rides, total drivers, and total fares for each city type using the groupby() function on the city type using the merged DataFrame or separate DataFrames.
-Calculate the average fare per ride and the average fare per driver by city type.
-Delete the index name.
-Create the summary DataFrame with the appropriate columns and apply formatting where appropriate.
+We can also see that the Average Fare per Driver is some times 4 times higher in rural areas, we can see this is the impact of having a lot less drivers available 78 vs 490 for suburban areas and 2,405 for the Urban areas. This is very interesting data.
+
+
+#Part 2 Instructions
+## Create a Multiple-Line Plot for the Sum of the Fares for Each City Type
+
 
